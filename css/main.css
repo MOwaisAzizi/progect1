@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../fonts/Vazir.eot);
+
+    src: url("../fonts/Vazir.eot?#iefix") format("embeddded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype"),
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "vazir" !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    padding: 10px 0px;
+}
+
+@media (max-width : 992px) {
+    .header {
+        background-color: white;
+    }
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url('/images/intro/intro-bg.png') top center no-repeat;
+    background-size: cover;
+}
+
+.hoveringgrow {
+    transition: all 0.5s;
+}
+
+.hoveringgrow:hover {
+    transform: scale(1.1)
+}
+
+h2,
+h3,
+h4,
+h5,
+h1,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    line-height: 1.5;
+}
+
+.imoji {
+    font-size: 30px;
+
+}
+
+.col1 {
+    border-bottom: blue solid 2px;
+}
+
+.col2 {
+    border-bottom: orange 2px solid;
+}
+
+.col3 {
+    border-bottom: rgb(66, 218, 66) solid 2px;
+}
+
+.col1:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+.col2:hover {
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.col3:hover {
+    background-color: rgb(62, 205, 62);
+    color: white;
+    transition: 0.5s;
+}
+
+.a1 {
+    text-decoration: none;
+}
+
+.a1 :hover {
+    color: white;
+}
+
+.cal2 :hover .icon-text {
+    background-color: white;
+}
+
+.free {
+    transform: 0.5s;
+}
+
+.free:hover {
+    transform: scale(1.1);
+}
+
+.plan1 {
+    transform: 0.5s;
+}
+
+.plan1:hover {
+    transform: scale(1.1);
+
+}
+
+.plan2 {
+    transform: 0.5s;
+}
+
+.plan2:hover {
+    transform: scale(1.1);
+}
+
+.plan3 {
+    transform: 0.5s;
+}
+
+.plan3:hover {
+    transform: scale(1.1);
+}
+
+li {
+    text-decoration: none;
+
+}
+
+.emo4 {
+    color: red;
+    width: 40px;
+    height: 35px;
+    color: green;
+}
+
+.emo6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px
+}
+
+.emo42 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px
+}
